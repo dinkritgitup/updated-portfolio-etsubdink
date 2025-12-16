@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Etsubdink Tesfaye</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Link to Ionicons for the icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <!-- Animated Background -->
+    <div class="background"></div>
+
+    <!-- Floating Particles -->
+    <div id="particles-js"></div>
+
+    <!-- Back Button -->
+    <a href="index.html" class="back-button glass">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+      Back to Home
+    </a>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Contact Section -->
+      <section id="contact" class="section">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+          <div class="contact-info glass tilt-element">
+            <p>
+              Feel free to reach out for collaborations or just a friendly hello
+              👋
+            </p>
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Your Message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div class="contact-links">
+              <a href="mailto:youremail@example.com"
+                ><ion-icon name="mail-outline"></ion-icon>
+                youremail@example.com</a
+              >
+              <a href="https://github.com/yourusername"
+                ><ion-icon name="logo-github"></ion-icon> GitHub</a
+              >
+              <a href="https://linkedin.com/in/yourusername"
+                ><ion-icon name="logo-linkedin"></ion-icon> LinkedIn</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Add Particles.js library -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
