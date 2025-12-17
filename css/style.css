@@ -852,10 +852,11 @@ main {
 .project-card h3 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  background: var(--gradient-tech);
+  background: linear-gradient(45deg, #ffffff, #add8e6);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
 
 .project-card p {

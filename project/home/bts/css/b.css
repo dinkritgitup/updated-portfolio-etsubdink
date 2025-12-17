@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+.bgc{
+    font-size: 40px;
+    background-color: #085070;
+    color: #fff;
+}
+.ms{
+    background-color: red;
+}
+.ms p{
+    font-size: 25px;
+}
+@media (min-width:992px){
+    .ms p{
+        font-size: 45px;
+    }
+}
